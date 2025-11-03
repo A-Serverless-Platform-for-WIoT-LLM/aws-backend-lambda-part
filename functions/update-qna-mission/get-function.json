@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "update-qna-mission",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:update-qna-mission",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/update-qna-mission-role-yv8qwciv",
+        "Handler": "index.handler",
+        "CodeSize": 1257,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-21T09:02:34.000+0000",
+        "CodeSha256": "8cV0TyfFMn36iCl7F0qj3fuLPB81i6OuDBOOGmS55Fc=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "b30217ab-9518-405d-9541-298e8d8753fb",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/update-qna-mission"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/update-qna-mission-b836c096-72ec-4fce-8734-9cef5fa9b33d?versionId=09AyukkOvWPmIUxmWpXb9d9nrEH8KU7q&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAN%2F8KL96ogwjUPcoUitbrRRJTm7N3%2BI%2FqCX78Lf7iKvhAiEAs1BWBbPDzPif7RX3zh3NGO4FXccFZJLbbnsjpAHmpmEqiwIIXBADGgwyNTE5MzE4OTM2MTYiDLkMbIHarljxUB8ZeyroAb55zuAKUlbhmvtXFNzc4CsLfJxKQ%2BhEEofM4ktBCN%2BfqzjncGXnAc2hF1ziBT5PfQ%2FtdLgqcS1OKzZhMI8WSp%2BTAm7GDOYwvMvKRcOPqZtWjqYEk3lUgBaq1cX%2FL608lkuctQNihI4ViGUDOL7NRg0mphWHaZSDdKZi2IA855AzSs9JOZngXyS1Sswu%2Bl%2FI9YYVqu22pp1iC78PkL7oZ%2FTBFSFYDVYaDRAEQiy8rpZUFZHdRDVC3e9Onr2Zf5%2FazTckoVnnqEKAER5NcJl%2F6ewHDdk59g2hH2maONWfjtnY3FdQ5SrY6h4w5JqiyAY6jAFhAMQJfd5VmBddAQ3zJryzBCSEsURsXTEBpQlMVK6SGbHqkDNolJ7IK3NW5NGWWHh3N2M3zlEhSB%2BiRP0OlDq7yI%2BhUoLWle8eG3PPwqAdvFwrrRi5Gik8hS%2FXnKqSKf1%2FjWIak%2BWBt7dO7KvXISywLLe8KP9tox9vZqtqDTIc3pegoKD87bwncBoUjA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140837Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YNOW5NG7Y%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=76f6f4342ce2d2fc33786a0d519d949ac5ad400ea88be17238327922acd647a6"
+    }
+}

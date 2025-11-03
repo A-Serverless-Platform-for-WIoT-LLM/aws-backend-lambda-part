@@ -1,0 +1,21 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/google-auth-library-layer-e9401487-2891-4e91-af0e-588f6dd0e68d?versionId=2JG4fjF.yLb7CH0mjJcly6_erg.wSowZ&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAI8v5TAjmhB0GT9b1LKXDCFt66SMSMJMcM26UuPDSRBfAiEApF0m1vGfHcIgeAeAEmK5flnqgFzPnG1QpjdSAModIOUqwAUIXxADGgwyNTE5MzE4OTM2MTYiDFUKZWVuiZnp3Lt8wCqdBTR1azkdi089BAKSJad1BE4ZDFWQ3OtaYoTUqxnHWjRpS161L60CtqrHY9hGvMNBchIRf7zvzm2JW1Rg%2BFU7V4uuzBaVINtR%2B1KcFcSZrS0QtjuPH8Gdaz3R6I4FoTZLXrDe%2FZFAEalJuZ5mc5Cmqkl5ENA09EwW4JB3PDU96Yh5wsmxgJ8NQftQOjO31TzV%2FMeRBFeHGAo0FKmdC8YJc%2B%2B%2FCb1NV93Pu1rsgL8hk9ub4m7Sd8gY9NOh4HOkwQKPW2qVMudwg6AWc3yTBJ3sHT4KdBNha7NvNgRaxQWQL8LbHA%2B4rEixOfgOQyHwCXn%2FBMDS5%2FJMjIJFn7ouBR%2FoM%2BdtYNcH%2F5ZhQtGStMXF%2BLvfvq0cVVDDaw9aEU%2BxyFac1MrgeMw3sTGgfwq4%2BH7tdmkBsfmzKMDDCjZWIDyUgH6thC6HJDON%2Flzk1w%2BBSucxoo6OFHPVWIsNW7LyxAZ3VKX88HYFq8S7BPeuV477rNp7n8YU2WTrn9YTbacnbYreXn%2F0coJg2WUDD%2FrykGm%2FkHJbfeDXBVKdPZvHkbjZ2Z1CBevKdxb5che2bk81Gj95YLLTM53NdE1J8Ev%2FhVJZoeQF3Ll66h1DHOE5hKlYqgRZLfu73auG4vD%2B0EVNDvRmf94VpFqXngA9X3bjU0leEIe%2FV%2B%2B0C6V2WV7hgMLPg7NFmQ5tJxeyjjAKmliQ%2Fbxvdv8U5EyuNDVD%2BxEGj1m8F5opwMNnUlmTE68JyoYAMnaPnZPls%2BCIzHZCYiiT0L%2BObtrKFOSrOdJ5IknqYPskFj7VVqbz2DuN6lWhAX3DCDaLNWALczTfD%2Bfd9V0CLwGylwqJ6%2Bas3CD51ZweJLR%2FB1tJYlgJU5JPVP7w0RS35Bg%2BKoeS%2BH0YWrtzAqQggzCc5qLIBjqwAY34aTLYkPzNuXni%2FAW2JE%2BQ649Rq0hch0xDTlV%2BEeTWfbah9sB5gMjidWmdVkfVf1FegAF61TA5fu9fKL9vJiCsBNW1MiUQCO9XmwTt7aUYzZbbOHgnvhKyrW3HHZqfIF%2BWmkGMyMyxJVO1eRVgoGGTmNDVG3PfGYAqUbn%2FJp2qSFEFtDfZX2PUjM5ggFTFhazfhXpwYKAeae3Lku%2FI77D3EVp74mz4bIJopUm56pue&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141814Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIATVKCPT5YAREWYJJJ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=24fc3d26c71e10cef892678c0aa72b792911f08dc5a960d418f6a97018b97cac",
+        "CodeSha256": "yekW1W5S5R4WbaD6YHTaSu0lRqkyFTfJEd4stNx8YDs=",
+        "CodeSize": 713473
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+    "Description": "",
+    "CreatedDate": "2025-05-06T05:48:14.479+0000",
+    "Version": 1,
+    "CompatibleRuntimes": [
+        "nodejs22.x",
+        "nodejs18.x",
+        "nodejs20.x"
+    ],
+    "CompatibleArchitectures": [
+        "arm64",
+        "x86_64"
+    ]
+}

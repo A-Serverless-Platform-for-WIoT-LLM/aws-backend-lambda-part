@@ -1,0 +1,55 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "auto-morning-alarm",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-morning-alarm:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/auto-morning-alarm-role-cfyv4jsl",
+            "Handler": "index.handler",
+            "CodeSize": 3452,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 128,
+            "LastModified": "2025-05-29T16:55:12.000+0000",
+            "CodeSha256": "IfK9knUxsQjvUaKvH+fxPfyoRHCRy64nzAnmcBUvR6U=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "fcea8069-4e1b-42ab-b3a5-0d40045682db",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                },
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                    "CodeSize": 713473
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/auto-morning-alarm"
+            }
+        }
+    ]
+}

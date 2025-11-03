@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"FunctionURLAllowPublicAccess\",\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"lambda:InvokeFunctionUrl\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:auto-report-alarm\",\"Condition\":{\"StringEquals\":{\"lambda:FunctionUrlAuthType\":\"NONE\"}}}]}",
+    "RevisionId": "6bd804af-e84c-4fb5-abaf-ad2e0390677a"
+}

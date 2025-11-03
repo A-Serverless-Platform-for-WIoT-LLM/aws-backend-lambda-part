@@ -1,0 +1,19 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/layer-library-graph-c1d6b67b-e2d6-4acb-8c7f-d46ee4b1f75c?versionId=xbIWubnL69R4BCNCIxQu4pibn65QfoPK&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAIXlbHqD6RnhNu8Yqeef5ESUw2tVT6l%2BiOwH54qMc8HMAiASaSZRQyXWW2Gk7Vbj%2Flt5wgSSkuuRiHapAkBrLuLMTyrBBQheEAMaDDI1MTkzMTg5MzYxNiIMdUTanzONayb3I3hHKp4FQoEYYuhWL3z47MSDmwmtA1jmulsf%2Ffh18BqbCQV7nfvBNJ3hyvH7sKMSYtVRfFgQz1nTkCmw9%2F6gRLiwrG7IXw8lRWV3p3d6JqpgPet4NoVjDJ%2F1OwaGQh8JUrGDU4YeojxzIpDq1jWc7ob9n5IoBejqvGnOKxXsfv3YJJlBGeNG3u1BKaF9TZX0dxoo%2FnA%2BHX0e8zDgWoy%2BYSea%2BUFhlzFhChceIicAVeG1JWspaVJieb4NcnCdVE%2BJi1ge%2FqQY0p547DjTQwxGXBzKPkjkTvh6z5GgbxD6D2Jprh7U8kgsmv%2Fo2YL1xEPM4rBUoZbnZs9DTSj7RVP0Y6TKWcPUUu8tSHiLLN5qYvQmaoxwgWrw3l%2BIKB3t%2FiTHbmJsUWaFChzszeP8JuazX8hlvagmgVJ3hB0ZVrIczdh3nXEQXDq54weC81tBH%2BKWoY1IXGwy5kb6DFuytI9D77VtD73JUtcrB6xb329XHm7s6T7838E3WMl0O9WJnE8J6sArppn4mcv1%2FdPGad27HJyol01VtOmhlSBUYcgGetVqEtCQZ27i5LjoOBeBgvPWcEiUilQwikbaWV3Cx1MpazJwfbRONkVr6XEGUHM%2BfUYB2t5d0j654L8ApzCYI1SrToP6gAdIe2jyqHTQkf9GLfh5AcW4lJwGUC06fYJcxYzaOjlQM%2F4onrVja45wXYMSIgPCoB4uPQPUzNjB3sIrhOz1RftgHeoW%2FUopRZJbGTTybbiTlllz2nH3jlZIjZNgnTB2A0jSqefQJF2%2FERD19BFiduT7ZSM2yUg%2BeAOhSDxCGi91Dq8Cvt0nS2m1FBWfB8%2FgpKhLK9qBrse1rU6vSyTSCvjhT6oYWgk6R36lgHcvoRImWixv0wM4FTYjrMo8FM8TATCN36LIBjqxAePVd43zfwzXnwuqFS0OE49jsOj0MM1wV%2Fzr9sdwGeK0FDnzFPF4GCrMmrNZoBzBX0rWZAhIVSER%2FXiEihCl6tifK1kQs7Pno8zMVChKkVEk5qj%2FdXEcOM47gQWzNa8t72Vm7mLE5dwuaDGbDg8v1XRrV%2BHWtz0SaVAL7IXiU5iA69alXeJRTfYZrQfl5s4SWAqhVDW1OgCNgs0%2B6WKAP0HRAJRjMdqbh3WfVEh9xVxRqg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141853Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YAYFY7W5J%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=fe24bd036ce64e3ca3cf15cebea781b61f8cc91648c7f0fc83da6e64ed9e8235",
+        "CodeSha256": "pb0OwGG/v0lM6nxl/MwfK2+nPXEofr2S+ZKwsUPCEK4=",
+        "CodeSize": 51138317
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-library-graph",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-library-graph:11",
+    "Description": "layer-library-graph",
+    "CreatedDate": "2025-03-29T18:02:32.779+0000",
+    "Version": 11,
+    "CompatibleRuntimes": [
+        "python3.11"
+    ],
+    "CompatibleArchitectures": [
+        "arm64",
+        "x86_64"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "delete-user",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:delete-user",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/delete-user-role-5vebu6z3",
+        "Handler": "index.handler",
+        "CodeSize": 1309,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-19T07:04:39.000+0000",
+        "CodeSha256": "eJ0piKTl0uXEDSZuP7IJhoLiECD3deplYJr9vFwUS+s=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "8b330e3b-8b7e-4bcf-aa5d-fe378f0b4896",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/delete-user"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/delete-user-706505ca-91b6-4bfa-be41-a4e4378ac673?versionId=dkecNOSdkLlfkra7CQDxWTbEhn5TjaNm&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAIenqlgX3ddhVspO8XjZKxjeEp1XSv57EBjgk6vnxdNdAiBZhxUXmG6yiS8rAk103Q0F4IQ2FTVCjcxO9LZVPjF03CqLAghcEAMaDDI1MTkzMTg5MzYxNiIMgWM10%2FhLDHZdYwRsKugBpXbVSpCq11%2BqhOHhzovhBn2I3Q94iS1aefuPqwttFZn5OUL0Ksc%2B6ERcj78gO%2BKLVy4m4A4caUCDfcCxdp3K4%2BpVwJ5h0lxmC5l2Rl8AUTRP1FC0oxidVpfGuSsM7wPmHYVYBTTif8lG4leqNh3kpT%2FfzQcDOGCb%2BkiyUwxUliHlcURz6W2r5gBQS5YVD1pLyxwBnF5RVuxXJe4Jup8Q6t3%2Fzx1p8WATFxZ6soXQ50lMyYbhQZwow%2Fz%2Fo03Y9%2BvigOIyLZejvISv%2Bit35NtijCrfux5a5hFcDmL7a7Al96fEgVFExHWdzjDwl6LIBjqNATFC7AObMQ4yJfneHS2w10aeom%2BIo%2B%2FqLdm%2Be6SVb3UfgbQpQMOAKrmpLfFA%2B5LKWcBEUEJv1I03yX%2FuVWs%2BM9dfJug5yUMSCLDfZ1NLVYPL1cMtb7o4HoCAgt7%2F46IcgDlquID7l28GscxY6yr5hImdp8JvUV1PBxRd7AWla0ny%2FAgXPRGVAoMG%2B%2BJvrA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141044Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YNMTCF6LE%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=dc7b3b76d50eb337fab57211fc9fe81b409191ac7a51d4f50ff8f9fe300df8fe"
+    }
+}

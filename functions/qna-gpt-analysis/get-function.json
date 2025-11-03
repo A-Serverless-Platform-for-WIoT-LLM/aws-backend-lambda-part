@@ -1,0 +1,55 @@
+{
+    "Configuration": {
+        "FunctionName": "qna-gpt-analysis",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:qna-gpt-analysis",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/qna-gpt-analysis-role-0n5x30fe",
+        "Handler": "index.handler",
+        "CodeSize": 1885,
+        "Description": "",
+        "Timeout": 30,
+        "MemorySize": 128,
+        "LastModified": "2025-05-25T13:42:06.000+0000",
+        "CodeSha256": "umOJn0j9CnoQPNEJ2PjEhqwMKdt2xps38A25bRbPGYo=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "OPENAI_API_KEY": "REDACTED"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "4c612adb-78b3-4ceb-9b58-6627c1067e80",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+                "CodeSize": 2344658
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/qna-gpt-analysis"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/qna-gpt-analysis-b350703c-21cb-4548-a6f2-4943b7b75159?versionId=0ivDeBW2JLVelL8NZKehvwSrcMIpUmzS&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIgQpqYFOKG9KnJGUd2IHBvSYbdOBWhbFMbqAh4hVAL0u4CIQDe1lCkL6TLYz1ad5%2FOFWMj4axcygm1Mcw%2BLGQpUyyU4yqLAghcEAMaDDI1MTkzMTg5MzYxNiIMyUs%2FQ%2BvHzVdxgFv0KugBiThJt4B37eR%2BkKn1gFTlWIUX2CAeTWGlIiSkC%2BovJVEIdvNDvLswNI4LbaoIVIWPVBbxlkz1c8LKpTN8jJtBHJdfszYAjVUYpGKnbgFVS81IcTei7%2BsAqL6MlLN7NdkAisb0NDVdwYZfbDGuCzl34NTH4rH0SDERaFHveye7bW6DAIUhWfPVWBONU1ykXU%2FzJmQV5cOomjNm08BfL6xCdJ15NqtjwO51hayxPg8%2FXVGq0GZkRUwW9G8LQ07RXJ3xHiYajcItrszvDHdF2JP8Dx7Ic6fHdx5pV9gtYVACEFgtYCkh75%2FlqjDkmqLIBjqNAbM0Y2%2FVU9wWo1lP80XYQlERCyOZGWqvx8ggcK2eDUDrGnXhJ3L1PzUbf%2FdrkWDCFJ1xZp2fPp5zvs%2FrfWcCM6sjJSqLKrYt8NjkzKyEfF66o9M3%2FDaJ7d%2BYU6j%2FvAY5IKhtz2Jd42GyDCfWfmKfFiLMma2twYOakJEy8P5r4t6hfv02NxAEVX%2Fs%2BhUD3A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140752Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIATVKCPT5YK3ICTYKK%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=47ec4768278ee0478ed52e294012243461b64ce02077212f09a7faa014bfd110"
+    }
+}

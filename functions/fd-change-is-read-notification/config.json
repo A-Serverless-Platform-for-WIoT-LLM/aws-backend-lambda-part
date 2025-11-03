@@ -1,0 +1,52 @@
+{
+    "FunctionName": "fd-change-is-read-notification",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-change-is-read-notification",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/fd-change-is-read-notification-role-3ld9yoqb",
+    "Handler": "index.handler",
+    "CodeSize": 897,
+    "Description": "",
+    "Timeout": 20,
+    "MemorySize": 128,
+    "LastModified": "2025-06-07T07:02:34.000+0000",
+    "CodeSha256": "ukYwRAPcwV1lEZSd4gSBenWGPPW8xyPM8azDHDpW7ug=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "99cdf605-b10d-4189-8f49-7cd778e98be6",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/fd-change-is-read-notification"
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"dayinbloom-parents-api-RetrieveSeniorAPIEventPermissionProd-VIh3mNaBINrb\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:fd-read-senior\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-2:767397900488:1dzzkwh851/*/GET/reports/elderlyProfile\"}}}]}",
+    "RevisionId": "6e123b2c-f150-4009-ae90-cbe28e5c48c9"
+}

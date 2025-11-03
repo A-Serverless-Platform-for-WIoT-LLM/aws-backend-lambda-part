@@ -1,0 +1,19 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/mysql-7eceb4c2-5fb8-420c-8b1b-642a8134275e?versionId=3UiTt9Dd2jap9xGcLN0lNXAxxJ79sBOI&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgEXsCyw31MLEXguUNoZv0MgDLcAtdf%2B%2BoLjDfvfJrRpoCIBq3rakZe7sNW%2B7Nen%2FazJdc9pBCWbWJfvn5whOzq%2B1DKsAFCF4QAxoMMjUxOTMxODkzNjE2IgwJjM0XPd6fPneL%2BkUqnQVTyi4N%2BZIrbpA6iiATEgSGDtFmjcqtnZ%2FQCFkZpT0o0Ti6cy%2Bo50mHuCFg86eIh%2BOQ13V2r0MetxkxRTNvdiCOZsqPumMRvh3%2B5DB59%2B8If1%2BOvp1%2F%2FjeSaKWoBSNCbfvQC1VbSrWt5aZT1QvejsBDigavpZdq0nkOMUoujKq5osWPUCWBLa1obG7VOKyyIzcZnTlo%2FqFdP%2FfHUAHkcBXpHKxnc39xEsVU97umtfku%2B%2BSAtSqj9StSA9%2Fb0NKUAaA0m%2BZV%2BXL2o93X9Po5JKWRqMdqcsaykANyf1aig4eH8r1ZJ0EwHp7D39PZtxEXcqRXlZ9MQtdp055XMuPre38jeO2P8JNeCw5BCM99RdzxF2wdyN5fHcIkwznDg9AbVQ2LYVlgD9p7ls6Q4wfL9A5XEceAk5%2FTiUPyETQdR0Y3DzHuS2oG%2BgQt09j3DpBa62nr4bdzMAhtiUUcM7h%2FNXJqOGpW52ql1x%2Beh5czwwIJktwFEOhmSKo58KGLph3UkiumClMdc0tGdLBJ2boltCH5w3iQTKTN%2FaUSYN3DEUui3Wyg9APEiSp6V9tkmhVybhoQaVNl%2FRgXm8E0pW9D3BdhidRvI7g8JSQg%2FvBTmyi6E9YQCyC9S62O05MPHMTvD3tu0LlAsx7ZmZtYivELmiv1LwRyTGvuw6K9ICc8PsuAqlqYQU2tkk7XKiqOlJX%2FiY8hgI5ePLnKKF4kejE8%2FYjlyVwVnZB4i8rqy2JmaxnezjDqYELeXc3wXAQhi0jqEIHeN%2BICguEisv6dYgArrTFEupBfrRSHj7jihox2z6wVT8dQQ34OwsBJ5H6hv3%2FqLFdGhd75fqAnNg8JLcN0QoUfJ0GDremLpRjllipe7XSbr4X4QUNyARLM5B7hdqQwy9iiyAY6sgGuL2tk3s%2Bz1GXp4EVza%2BefFXdLynWJc%2FarYL5Bzmtm3Rw%2BeSBGmq4vwz1T%2BE4QpHOMH4KgbMEm%2BqBcRoX4EDtYpMAs5sxt6Ur3SbQLo2NbOqaNPq3SwKP73TnPaQtMblFcWctQG1X1c%2FOs0iNp8xQ9z9kskULFCkWx3b6lLVP05HHWSCfCdzDQnGQqTLNVTz60FgftydQW%2FdrQxonCD4tIvpnYZBoyALgWDHOHYFtBmheD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T142356Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIATVKCPT5YP2LPWCLA%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=abd85ee2b521dcae4023d4cddf90ae1c0928a6e0fe32636dc6e29e71971ef979",
+        "CodeSha256": "cA5PubPn22SgV4GHhfJjEJosIn+PUwMDNHeBO8bUFMI=",
+        "CodeSize": 618258
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+    "Description": "",
+    "CreatedDate": "2025-04-11T17:28:13.710+0000",
+    "Version": 3,
+    "CompatibleRuntimes": [
+        "nodejs22.x",
+        "nodejs18.x",
+        "nodejs20.x",
+        "python3.13"
+    ],
+    "CompatibleArchitectures": []
+}

@@ -1,0 +1,57 @@
+{
+    "FunctionName": "exercise-recommendation",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:exercise-recommendation",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/exercise-recommendation-role-rpnlxeib",
+    "Handler": "index.handler",
+    "CodeSize": 2738,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 128,
+    "LastModified": "2025-06-18T06:13:59.000+0000",
+    "CodeSha256": "a1dO7Wbh2zsX+KMd9WVO+8ava1EC4vV7a8XSwGZLXJ0=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "OPENAI_API_KEY": "REDACTED",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "66817559-3b8b-46c4-a17f-1a9c8de17526",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+            "CodeSize": 2344658
+        },
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/exercise-recommendation"
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"FunctionURLAllowPublicAccess\",\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"lambda:InvokeFunctionUrl\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:delete-user\",\"Condition\":{\"StringEquals\":{\"lambda:FunctionUrlAuthType\":\"NONE\"}}},{\"Sid\":\"lambda-9db5f7f9-6ddb-460f-8257-a7a7020faa4c\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:delete-user\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-2:767397900488:6s19qmxd22/*/*/delete-user\"}}}]}",
+    "RevisionId": "d9138ec5-c292-4c8e-82a1-4c326f0fe17b"
+}

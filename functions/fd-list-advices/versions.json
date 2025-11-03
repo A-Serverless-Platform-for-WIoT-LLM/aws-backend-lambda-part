@@ -1,0 +1,59 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "fd-list-advices",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-list-advices:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/dayinbloom-api-AttachLogsToLambdaRole-7idUE94wWsAH",
+            "Handler": "index.handler",
+            "CodeSize": 1164,
+            "Description": "보호자/의사 조언 조회 함수",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2025-06-19T15:34:39.000+0000",
+            "CodeSha256": "MYI1S1PMDL9o+9+PuVzFv2QFXthvZvBkXBNnigJZzP4=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [],
+                "SecurityGroupIds": [],
+                "VpcId": "",
+                "Ipv6AllowedForDualStack": false
+            },
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "FITBIT_CLIENT_SECRET": "REDACTED",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "FITBIT_CLIENT_ID": "23QC3K",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "83941138-9ddd-4b9b-a265-6eedb35d0b0f",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:database-layer:1",
+                    "CodeSize": 5605050
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/fd-list-advices"
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "auto-report-alarm",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-report-alarm",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/auto-report-alarm-role-c5u28ys8",
+        "Handler": "index.handler",
+        "CodeSize": 3347,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-06-03T06:04:10.000+0000",
+        "CodeSha256": "W6JbVlUdIiTgFrSSKKQsb+Kw0gVlilbMrcKmvUkllOU=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "9a4cae06-775f-4950-83e7-59d7f306b238",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                "CodeSize": 713473
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/auto-report-alarm"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/auto-report-alarm-944d96dc-44c3-4c1f-93b5-a7a2a5dc66a5?versionId=Ch04M2HpvHmXj55O.09mp8Qv1hSj7x8p&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgMX5p5ZAh0Py3vSjJo3TSMdgwsgBECmOI2kd9YmaBmGcCIG%2F%2BzM0wIFLslYQnwkSxX46gR1was%2B6Q6xjqJpidboNRKosCCFsQAxoMMjUxOTMxODkzNjE2Igzwyrgtog2dIUL45kgq6AFw9gwnWH%2Bjolz%2FyOpVVyTY3kxXDkcmW6DjPUwiwD3cT8%2Ff1XbeYw0u5c9PHItlsTl744uTHElpOwOrEGbAXX7VQQcXeEralqf%2BH2%2BeuYZaCouV0vxd2eyHCdfLe8v%2FNtQF4SRTA1AdmN%2BJOFK6MTJFiw3FgWLJELS5XV%2BU%2FGEDI212IAJxQDlNwFc9s1oUrO7wRaJ2MaA6mgywubleofcWmbYuuyHow24Dh1Bo0zLk%2F8xA9q9aRFwYeroSY%2FUK3WkRI1k0Mkzu8ZAmiDM0MQgVrBGsIKSp1YToGA1Ft0Z6smsq8L44FYjhMMiAosgGOo4BuPrudufLh0TmCOXhhS5u6bVieVcR6d9bQyCsPrLD1L9bUz1rrLP61oTlwUZS3CLRJgco%2FlXq%2BfjZcIRedqwK43lbaI5FjgFjfjr9rtIDzcC4OrByDmtGpxUiUD%2BMfdXRGDI36DvGLLcC%2FBqUgjsM%2Bn2ZLBBz8x%2B9WhTIkg34Mk8UAcYn%2FWlzcWmzJ0Bkgw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141455Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YD6NV3KMJ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=d718f5254c569f7bc77c8f8c4f33d89138bfe26fd12135e173a16cd288a501db"
+    }
+}

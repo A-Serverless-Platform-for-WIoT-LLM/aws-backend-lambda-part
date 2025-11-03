@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"FunctionURLAllowPublicAccess\",\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"lambda:InvokeFunctionUrl\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:change-is-read-notification\",\"Condition\":{\"StringEquals\":{\"lambda:FunctionUrlAuthType\":\"NONE\"}}},{\"Sid\":\"574c65a3-9b04-5e49-8618-e7e094b02713\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:change-is-read-notification\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-2:767397900488:e1tbu7jvyh/*/POST/change-is-read\"}}}]}",
+    "RevisionId": "e7b78370-0815-4d5c-9e9f-7af778d61701"
+}

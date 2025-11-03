@@ -1,0 +1,7 @@
+*.zip
+*.jar
+*.gz
+*.tgz
+*.whl
+accounts/identity.json
+accounts/*.txt

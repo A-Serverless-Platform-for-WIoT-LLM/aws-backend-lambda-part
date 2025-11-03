@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "auth-data-test-lambda",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auth-data-test-lambda",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/auth-data-test-lambda-role-764jb0oc",
+        "Handler": "index.handler",
+        "CodeSize": 1144,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2025-05-19T05:04:45.000+0000",
+        "CodeSha256": "0yylx7wouL/Yez4dWzzbA3DJ7UKHspajcxq+oOCRyeY=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "c1b4bd2e-ae48-4b40-9d97-59fe6ec46648",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/auth-data-test-lambda"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/auth-data-test-lambda-388b24d1-3c88-4c9e-b51d-c8203b559508?versionId=HOEyD92Kk9rjII5ghh0uTab84xcpwMqo&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIgEsJtRrai6nqx8GJk45r470uEMtcG02bgLdfugwNpJ88CIQDmaNJDYVc5Q2rDAa4THFO177tzVBXT0k%2BHSI1ph6bsNiqLAghbEAMaDDI1MTkzMTg5MzYxNiIMnEa0T9wfnIfPmkC%2FKugBrbA1lxPh03eqLCLMCI9gJkHpfY4zlbOd0PEbP28ev3ZX2UNRXy6lJVHN9dDh%2BJh0nyl5KtprRPXnZB%2Fv8N9q77ZKzoXgUojDc5J1Dot1C5ZJLeAKFj%2BsPGTCOM0lO6R%2B8q%2F6Jdvjl6veGyKl20qutEVPgABSJ4NJKthJpqNuYwaNPweoWZ5IMLlMBXj%2FoZDh%2FPEAAnY3AiahqixyN3O2V4Z9vdjIjV7cCap1Z9yRH8hj%2B5JTDYoS97p%2FR4FOQXO9Skfhm2xdj7NJCSXGQ0afZ%2BaraVwlQxxyPzwOqAoiqxI7xBeGZe5a0jDIgKLIBjqNAQ8vAY4K%2BXjYhoS7UgE8%2Bx5N%2BBh2wVRqNXvBiN5e%2BUwXsbzQ2TjsVu2K67DGcaV%2Boip2LeobaXAl3GezmwODMeTg8SpE0bp7B8gR004v1i9FW7nlFE%2BoXHe9LouN5%2BTSlvtADphuE0b%2BmNCgQGEFw5joaLDFkW76EWYCF85dd3lZlwP7HrJLySdJmPqVLg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140338Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YPGIAXNNG%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=d1d979f309e36fb38543997423809cdfcaff8e1695309e6a5ee6c29964a92b6e"
+    }
+}

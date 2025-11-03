@@ -1,0 +1,52 @@
+{
+    "FunctionName": "fd-get-mission-state",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-get-mission-state",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/fd-get-mission-state-role-wj0ljz4y",
+    "Handler": "index.handler",
+    "CodeSize": 1161,
+    "Description": "",
+    "Timeout": 20,
+    "MemorySize": 128,
+    "LastModified": "2025-06-18T03:15:54.000+0000",
+    "CodeSha256": "WobDSAo92J1gEq5Vc6jOxXmK4VGGvs41+iWw+m1TsN0=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "6681b02b-f226-4c5c-b6d8-c71f25b94fe7",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/fd-get-mission-state"
+    }
+}

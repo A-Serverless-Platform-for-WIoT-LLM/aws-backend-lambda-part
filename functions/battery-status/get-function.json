@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "battery-status",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:battery-status",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/battery-status-role-wcyktdfc",
+        "Handler": "index.handler",
+        "CodeSize": 753,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-14T10:13:05.000+0000",
+        "CodeSha256": "UcZXHIAKtQfDMA5GJbwwajmLTbngwXEeQyKNg/CG180=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "2c608f2a-21d5-4958-a4d9-2ef194127299",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/battery-status"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/battery-status-8eccc539-c224-4c25-a511-f86441c773cc?versionId=vHsq_n4DpTxq7bT0udX721exXhFTzE1K&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhANksFJ6b9wrElgFdbX0Ka8Jl0uYptWeBhCrn9PbzHQf7AiAW63ynIDO8y6fRmr78sJKXsJn4vbvoez1JehvezYg5lCqLAghfEAMaDDI1MTkzMTg5MzYxNiIMHG4c29osZ%2FtKx8LnKugB3NdkWYwGprnMukYUMY3Et2PnK6b0Y5JXC98lzSDx%2BDk5P%2BatCLf9aJijLkakO6O8BnDRYq4qflbQjbNBMofwDHgwYfDa4zLpVzESVwPmaWb%2BvLnktuLlYkAp30rF82BNlpE6KdmkPKKk6OLf4MTwqaG%2FQ3kiDuu0QcZjVo92Qde9N7jscqHGSZGf5m2aPE4HvxQ3A4EtMdIRvhbu8ki5lbRwGgbZcI4beu9VTxkq%2FrSKK2nRPGDCfShTP0cZPJ2%2Bq3ve5daCYrMq6gxJaSWFX%2BlP%2FscSoHW02q3Aj713SbmCwLleaDiRKjDG56LIBjqNAcsO3TG8Zo%2BSYNUZDh%2FDHAziscskV0AWPBh7ya%2F9MUZ%2FcZUcrbsCao0bDJm7tE0jx%2BaUDkY%2FYYLdgcvhEncgLlJl1JLupeuJSMrrfPrdEbdwyGyXh9F%2BPH89WLPpkMvkzOXubIvPXQzbTKo%2F%2FqxQfh8nM0RlupIcozxCIKXylLybfUAOtg38ZLDTWYRaFw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140525Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YLBSQUAMQ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=40ba1f0c55c23fdb5ecc4576e28fbd29cccb39f14218e8f4b98a4b56e72cad42"
+    }
+}

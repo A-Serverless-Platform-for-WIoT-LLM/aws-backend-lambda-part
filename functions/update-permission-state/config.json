@@ -1,0 +1,52 @@
+{
+    "FunctionName": "update-permission-state",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:update-permission-state",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/update-permission-state-role-xv5jc5hk",
+    "Handler": "index.handler",
+    "CodeSize": 669,
+    "Description": "",
+    "Timeout": 15,
+    "MemorySize": 128,
+    "LastModified": "2025-05-20T03:58:30.000+0000",
+    "CodeSha256": "nc5C6Qf3aAQ1mBtTx8RdkgVuX0ixMCOg5WXpyLmWXRU=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "d8b08d95-f9ca-4204-8b70-ce66fb666f71",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/update-permission-state"
+    }
+}

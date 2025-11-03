@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "auto-meal-alarm",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-meal-alarm",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/auto-meal-alarm-role-807szbug",
+        "Handler": "index.handler",
+        "CodeSize": 3601,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-06-08T07:15:17.000+0000",
+        "CodeSha256": "Cp/KlmFotz/Kzd1IvCo/k+j78sBW+ZTLVpMewvB0xZY=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "2cc979e9-5a08-44e0-aa01-d98d8d855ef8",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                "CodeSize": 713473
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/auto-meal-alarm"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/auto-meal-alarm-3196aa00-777b-4a6c-922c-e83c554be569?versionId=tkpUYWxUgKmqEDZo5ogh1L6iihCxzb0z&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAPPqEXrT9GPgQreqDqQA6EI3FtSxbp8MzvbkX2Zpw8jtAiEAlS50rOVNHC%2BZqfhM%2Fp1hVRzYSlaOxJUAvhNeH3khoQQqiwIIWxADGgwyNTE5MzE4OTM2MTYiDBjl4YOu%2BGIwaVyOhCroASh7TYueJiKmeuZnW9fUukIdiHMZbiSUY71KX1u04IUDz3nUvhJNQgZSyCTOR86tehLHotXsWpPYxEXhQooEBJ15cMsr0C95eJ7DAXI7obXkWBKg2wEPtPhRXP129HHj4vSOUnRoPlPvslIGdA5jMJnbmssvAjMGYvcB%2Bdlf%2BNDO%2BpP7enqDkKEUU8HW6vFReKJ4lb4HjOheBIt6gkcli2oKnqG0N%2FTDtYev6VhteSG34PUrElStNaW0zMF3a7cQmgDds72sr%2BVN2iDb7M7D0E420ikYHyPNT7fUO4JUTtmk%2Ffk%2B%2B7BSPPUw8P6hyAY6jAFj3ffSODFvsWH7qQKlMIA1JbQXdzS4rkuWBOqneB9RpjvWPp1CT2oLtPUMou9g5K6AKL2tU%2FEGo%2FKmKy1yivEQzYHK3%2BGjF3xRqVnxGRaPzCAkozmgaOVmHBnAUEAmQMe654qwRWQrTPBM664EbLNBZd%2FiWsCAhV4clcgJW1ccaYbgVaILUTTXsu1RVQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141415Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YFRR3JAIF%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=77a0157c2198192c30f457d828e2e54a0b48e175605afe1566ee516c7f2170b2"
+    }
+}

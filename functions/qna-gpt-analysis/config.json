@@ -1,0 +1,49 @@
+{
+    "FunctionName": "qna-gpt-analysis",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:qna-gpt-analysis",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/qna-gpt-analysis-role-0n5x30fe",
+    "Handler": "index.handler",
+    "CodeSize": 1885,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 128,
+    "LastModified": "2025-05-25T13:42:06.000+0000",
+    "CodeSha256": "umOJn0j9CnoQPNEJ2PjEhqwMKdt2xps38A25bRbPGYo=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "OPENAI_API_KEY": "REDACTED"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "4c612adb-78b3-4ceb-9b58-6627c1067e80",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+            "CodeSize": 2344658
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/qna-gpt-analysis"
+    }
+}

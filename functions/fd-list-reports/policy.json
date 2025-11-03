@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"dayinbloom-parents-api-ListReportsAPIEventPermissionProd-35pZUgLgjVQ3\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:fd-list-reports\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-2:767397900488:1dzzkwh851/*/GET/reports\"}}}]}",
+    "RevisionId": "bac8367a-9b46-4cae-b6b9-98b8354b5809"
+}

@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "get-mission-state",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:get-mission-state",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/get-mission-state-role-jfqihad8",
+        "Handler": "index.handler",
+        "CodeSize": 931,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-06-18T03:06:39.000+0000",
+        "CodeSha256": "sMmwwWWhm70XjAF1wVUx8qdptztuEMt/jITe0yAfzH8=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "8b4aecae-3d07-40f9-ac7a-a865d34f694a",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/get-mission-state"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/get-mission-state-786bf33e-bf60-4698-bc69-d2331f26f43e?versionId=HqsBfa6mH2lsNFYx56gyQ.jpR2VtgOqP&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgNyNtpSuTU%2Bfc%2FaFQFmCPfIM0DRCzK4lGxShew8bTQ5YCIB%2F%2FHtdmShuml2xhUzpvB4Dex6LTPD9MNkku770WdzzpKosCCFsQAxoMMjUxOTMxODkzNjE2IgypjiDb35gsalaa75Mq6AHzb6He2y2gSxDge2PpF1zmlarJItiD8vfhJkw7AkTaxT1py60zOOJGqnHkl75kUTdMCwvGnckAA3wN%2BRs%2BHttSVqAZj2KAi%2B87NlCyFKpMTCNri%2FAD6OBnxkIZs7QVshfFZyNZZXi8np%2B1rlqxCBepogmnRLEUDG3QkyiFn5kSVyLq69BWVef7w0Hvj26A6zkzsuh5%2F8pbOe5sXdezPkcEbCDpVYa8SmH0xn8kbw%2Bnt9JtvQbSQ7gk6awTBfGyrv48eISnvQsPMZKpbNw%2FlX9vnJTu67hrWlnmtCTQg1TPEwxWrb0UftoGMLH9ocgGOo4BqEvoV9EJiStD%2B7kh%2FpZxHVmK7e1CjLtDflCxnCzK7njsbRuCjw50M%2BOZiHbr9bUeloqG1pfu6lUOtoxJUoGap%2FoVo34GctjTIfcny7HjUSsFY25d4w3Hi9ZCxKKrhHOPBcTk%2B9eLVX3tC%2FnWen4eh2Vgp59m3b0IRzwW9XgUy63LPzSF%2BqTYhkH5mAnlnQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140503Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YFZZRFDWE%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=b539a191cb3fd8ce6a694010ea47e2e0f3c9b11dd86d4d5201f9ec27fd97dae0"
+    }
+}

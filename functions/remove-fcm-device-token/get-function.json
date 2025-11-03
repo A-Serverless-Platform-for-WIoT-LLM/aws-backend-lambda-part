@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "remove-fcm-device-token",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:remove-fcm-device-token",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/remove-fcm-device-token-role-ews3kt3r",
+        "Handler": "index.handler",
+        "CodeSize": 879,
+        "Description": "",
+        "Timeout": 20,
+        "MemorySize": 128,
+        "LastModified": "2025-06-07T15:29:11.000+0000",
+        "CodeSha256": "hpixV6VQ6LXoh0DoTPxVa46djvxCFHB1PYnsruUa5cA=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "e9fcc1b4-f917-4d4c-9626-aa440e5ca690",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/remove-fcm-device-token"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/remove-fcm-device-token-d5b9ede8-5b6e-4417-8b91-6b5a46f0e54d?versionId=qzkoynXGjtyBAU3J8QF1tqFhgBgae32P&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgfxvd7bBvK2DDHjwVMUB59gJflEMvuFTDaE64g3D6nYgCIAQqeFfU%2FZdf6TeQRIELywomPeI0d1bBlDrrKqrT6XLVKosCCFwQAxoMMjUxOTMxODkzNjE2IgyZHbJpXeSa4tYpVEQq6AF5oOqYlesx7amyvwtaBofHkzYE2DGXsuK6A4Wf6odNCGmv1xpol1UnJWbYcWBlz3HW32zuHdrdAlcR0D9NvQAfqBPDbL%2FlMf8owXqMpzs9s2Ec0ZSW5PizYUKwvst59X71QX%2FJxXt%2FnGXQtT0z16N4zu%2Bc%2FrLXIGZgVaNABnVuFR8u1GqPRgU4i7%2BC2BvjaNCQdQqZMSvCazbPSms9M9bnrvJrMJhJ%2BVu%2BQ2tn%2BncTF9W1IYCjiGhS34%2Bjo4ukymVQNhlCKA3eDo3YamxmulN5SpZ7t%2BLBBDNy4vgsxN4w90im6QV7rFs%2FMOSaosgGOo4BQn0owc5b1Zw0%2BwybJbcLZol7O68Q6CbO2RfC10LvGUjP7BjeyPLCIt8cbFaRK2Lo4cNmJi7Eveiotb%2BfLPPnxTuvfuC80UkWPu274NUY45ZCcOWG5R5zoTvSEK7bGnLN4pxpOuthxTp%2F3aYb6Uh8fyib%2BJW9nXNCgZV%2Fl%2B2luQ8sFIbcLLztbCBEgusX9Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YLDAXX45U%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=ca4876e5522ebaf3bb9d5592eb3ec837deddb1c805cc95ccd44851fc771df4e2"
+    }
+}

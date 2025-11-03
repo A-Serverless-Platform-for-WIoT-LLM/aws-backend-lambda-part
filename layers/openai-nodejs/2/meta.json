@@ -1,0 +1,21 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/openai-nodejs-eb623694-011e-4c83-bec2-baa7eced45e4?versionId=LR0.hI0O7kjTRaXKVQJpf0I1dTtAuwgO&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgf1xTUYxeDIKcRcNcRIaSZvXGQ%2F6cqhW38OoXbJhS6qICIBmOX0v1c2CiYnU9x8pz1ngtbcoH1RD8nc9QjOccLIC8KsEFCF4QAxoMMjUxOTMxODkzNjE2IgyftCLkhHE%2FXiPo2DYqngWjqB%2FWfazh21RI49zoDeSiCDpEHYPd00lN6oA82T2bsRHDmuxB2R48qe1cInUkjMYpc3PS7ZJfINin%2BP39qiFi3A3AtgPk0uTsBZActJrkvvobO4yo9vMXSsD0ijdVpBWL4PAqJ%2BMGTuBbOA2KtuNxkGkGo42YlJbs3mVHtZkUqtf1LCEXJzK6XOid7XBw3O%2BDd3iORW3F4DzpubVlG%2Fepf0o7BSHsl0trK%2BImIG6maEF6%2BvGW5xwec1Ph4vWd1goDMsKEiIf8%2FBfqW6VlXnUxTn9rDLSXTKsI9EChoVFFqBs45BshVaCGdoGkQwuz6yOMW7ZTrbDrKHEcQP7hB2XKQtAuGXHuLS%2FdH2ZyQDLUhxapd0gT92tvEmbLvhx%2FDTqzMqd7OFSsOktsiymxkpVJWNheGbW144KlGZKs4vHo2AIKBFe4Lf463Ml2MnNHocCMWkKJMJKmW9P1Mdn4VcjGLVHRP0ugkXmCF%2BvHv49arEBTD99MdKu1odtuhH6%2FS7%2BekOWtKccZYaMnOwtPN7DkLaDG8BgmfojTZkXB70czHs%2B7ZiIdmBEaLxUy2oYnep4YF8DtGZSMBJIhknrHn88hrWmSAt%2BpvzZHD9eOrc8RMeIM%2F%2BnLzGvLfaFYA6yBNLwJOklaKeQW9b1MgoSALH3oGiQm89qct%2FwY5RctEuEbN%2BJ9LwzuvdloQO%2FsL2VWMvgo1Dbb0KErD5p7%2FvgnI17Jtgwe%2BnEmepG1hOqzaJgbAm6vyNj0p3hExpfgx71%2BR%2FAxOaUHWfrEcSPMt%2Fe6Ss%2FkAj3RIx2L1pPX8lw3QdRU7HX3wUaM2CTUVnyNUF7iXqaQ9czfhA%2FByIrifocjLY6QTpC5BURZ7dk86pKyVICvXk242wM7oapQrNHiJ8o0MNfVosgGOrIBtu%2B75iaaqCnTtGu67LKuiVJAhri5tANt6Gm%2Bqte6ckxftpNfokhv0Is8d5BUDJlOC5fvc%2BRNEasjGkgR9y4gL67i36xJ87vfXyoL8mdR5jN3UliEqIi3z0DQacXlkpCH6KlL%2FUlO%2BDrsymocm%2FHjEqMnPI1aScUzMoaI6OelsPcwvIxnG1ZKDNnIbS1KT90JE5jZoWwC%2BE5uVSKxLkAf3p%2BsKcEIi%2F5rwEcM3oGLL1VFRQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141025Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YMGTB56QX%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=306a107977e2911c4579803b6c574e1c4c37f905849b179601575f251da28a6a",
+        "CodeSha256": "c+2GsDrOhEtIMD0DOKXaNz1qZXupkQd2BMsOYYA3aus=",
+        "CodeSize": 2344658
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+    "Description": "",
+    "CreatedDate": "2025-05-05T10:02:27.409+0000",
+    "Version": 2,
+    "CompatibleRuntimes": [
+        "nodejs22.x",
+        "nodejs18.x",
+        "nodejs20.x"
+    ],
+    "CompatibleArchitectures": [
+        "x86_64",
+        "arm64"
+    ]
+}

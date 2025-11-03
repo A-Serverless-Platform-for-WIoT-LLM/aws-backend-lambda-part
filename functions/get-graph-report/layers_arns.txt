@@ -1,0 +1,2 @@
+arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3
+arn:aws:lambda:ap-northeast-2:767397900488:layer:aws-sdk_client-s3ANDs3-request-presigner:1

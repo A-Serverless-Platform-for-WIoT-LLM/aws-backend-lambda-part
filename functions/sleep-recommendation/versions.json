@@ -1,0 +1,56 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "sleep-recommendation",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:sleep-recommendation:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/sleep-recommendation-role-nmg8v6w5",
+            "Handler": "index.handler",
+            "CodeSize": 2594,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2025-06-18T06:16:26.000+0000",
+            "CodeSha256": "a5gcxUP0jJbnJiE2o59z0icxj+L3NxGXlesPbOZt/qo=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "OPENAI_API_KEY": "REDACTED",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "3969932c-5728-451b-9f3a-b91c9aad750a",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                },
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+                    "CodeSize": 2344658
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/sleep-recommendation"
+            }
+        }
+    ]
+}

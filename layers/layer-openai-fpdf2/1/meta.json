@@ -1,0 +1,19 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/layer-openai-fpdf2-c4ddef7d-03cd-4321-be57-3ac08eaf17c4?versionId=EWYyFUM0bOsc8hz8BrLyQ2A4Ux1JLxgJ&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgMex%2Fbv%2FIp7MZ%2FPnP5gps0Zih9uaCvuHJAeUfJ0Kz4hQCIBBrt4is36l3uCp0I1knabUD2bmZRZ94nsdNr9sMmA0VKsAFCF8QAxoMMjUxOTMxODkzNjE2IgzxQmS22E77EALNptUqnQX9cjKFr6HZKCeVBwJIr78BbtnPPbnJaUsRlVWiPSFUpE72P2%2BxDYSrdOVgJlSVmHVB3Y8Q4csvPVHR5vZKie64x6Qvl1zDU8gsoRyN%2FjJeYN5MZno4XY7cqLcG4FvqrPp3QFRgkLfeUYikerBqsupZWBPhgtoZCCvyoDV4mx378F2G3GvGoW%2FhRT5IcOubW9mWPQ%2FFpGJdJxrNOFxMMgGek0x0mg7vxGRhLl%2BzZORr2B7pwrdLEDz93eThSMbyu4N2doE1ErWwYCYTbMorpNp5hCbT3w6jb0mTY1Z2m7T7xXsXV4cgX7Hczai9cRM3%2Bo5HM2YHY4xfmYsneoLiX51ZNRX8OZK7qXnHPB3MnJ37JtOHH4smJxqjfSJLFItCevpLoBmeoGCHoRGY8nbkKOqVAIw0uHoUba%2ButI%2FJqEL2nRSvEoScnCt7eyeOMQSiyf5bjUNXdDOOtc19fPiY4jrt6FEtkXxPKOTUxWUJXcX%2B0AY6CGCjmZORVT0JCCSzTrEJgBIKXk7oeDtPINGb%2ByxHNhU3KqU4qFL3R9lRlv9Jm20xiVPp6YXIm9bfrshTc3AqAVMtIajyBocPF7yDWKM5lNnXG8JSXRKISclIv711UkCTGcDhZAfe9Yb2OGP4D1oGrRs%2FcaheDzMK1BCwtgEhrpIz%2B1Q4cEWpU%2Fb0ozyMm2usN9zf9rF5bo0NdGMy%2FjbgoJv%2FoHMTczLurA4n4A8qroxxyPlMZLE5B%2FOybhgDjbjG7NL4QwkGX9i7FOZ%2Bd05nzKNno9Fp2a9GbUHYaZ08PSDx0q4E276S6F6G95pXeEmlIAwW8Ks2Btw8RqlWc2XPiJo3lR9%2BcnfEO2wkDACUbs2GymQ3OqOiGuqUuPfIbZLZVqH%2BlcnpMIQE9oYw9uGiyAY6sgHmfBBTpue8TdEj00fbxNIqmV%2FOKy9E%2FNphoXHgQA8m2gYsuzOwa5Rb7A1dmNyMt8876O06z32QP9jPBVlrlW7yJ096eBKF%2FurHuQEHKZHfXhUNEnocapR0qX0pEAeOz1LxCcJ9u2WpdGJ6Z1KCe7DuLjJFxCabluA9wWe%2BE89XRKH7kNjjtAlt4OKwolPodOELlpTu8voJ0SRuT5Q4etZkN9y%2F2JHEDDoZix3QdUW7a%2BAr&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141915Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YC4H4ODL5%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=d14c20677f913839ad8216bfa1b4708b9897d7f486d90728c432e793079e55fa",
+        "CodeSha256": "X2j6McsJb5SEPCZOX9ALhBfyCVYYzREoEN6r9Uu78kg=",
+        "CodeSize": 19850061
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-openai-fpdf2",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-openai-fpdf2:1",
+    "Description": "",
+    "CreatedDate": "2025-03-29T18:31:38.850+0000",
+    "Version": 1,
+    "CompatibleRuntimes": [
+        "python3.11"
+    ],
+    "CompatibleArchitectures": [
+        "arm64",
+        "x86_64"
+    ]
+}

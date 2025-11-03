@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "save-health-qna",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:save-health-qna",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/save-health-qna-role-cxm6yfxr",
+        "Handler": "index.handler",
+        "CodeSize": 1088,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-19T11:05:15.000+0000",
+        "CodeSha256": "Ajw/zaOBn06sree076UBSFT8qxmLIkU9b7BsTKDhz4Y=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "6eaffa51-90d9-48ca-adbc-05eaa09ed037",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/save-health-qna"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/save-health-qna-7d87a7ee-75bc-41a5-be70-7047c9a96923?versionId=PugSxZ.DqY2erb6EkeU5wxeMB.T79AZo&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAKUUBE6mY9g2gJPXB3tBNWAmOV84l4qMmPkpQqnA3n6iAiBDLx4dC%2FY%2FYQQKGwdkDrldA%2FiWXch97kcBWBXw%2B%2BvBjiqLAghfEAMaDDI1MTkzMTg5MzYxNiIMUBq4jBrBE%2F0Sf%2FscKugBgoHx2waBVDZ3ZiTtsdt%2Fk9Zv8gzgMiOarkB%2B0vwttCmbDOd0lri%2BLlG20diTRflKVLu0WNrrqlTM8i%2Fus3otwpTPBpoVtbMPk8AKMuZA7DP6NNoXrW1DNss2XAzdvKUVTd0fSFV50FGhAKgcxR3dMIPAT5X1X29BQVCUH7mVwfGOwQuYc36ujKU2HAJC%2ByQGF14lqmDhYryF7HP9yi5wtPga0FUmkBTRAaOGaZl7%2BjuHFl3UvL2hkgntFkH9i56LyunOwydDnHlq01fT4e5M6TX0y%2FkA%2BivibRq6i7uax%2BnwB2RpFmS1cDCC6aLIBjqNAbB%2Fj%2BkImnuhJJpdxBGDz8oulhm1AMrn7xg98zJANWtSFMxqmgxm7Ud%2FubAPxovcZQU5XfEsA5alF%2FqXigHkjpbYE7dLN9WCATyN%2BO%2F9sx2%2BUO0ignTzU3ouHImDuAxJFAkHhZwEvyAzhmfLW%2Bwgo2Z6oK1SZtmPpjOcDqKjoqrJeQ0iq4%2FsCj%2FzQm2sGA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T140814Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YPEJQOEFT%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=09c569f84b1f3ea348f03992050f636433d60c8214ac08ce6e489c6f33915400"
+    }
+}

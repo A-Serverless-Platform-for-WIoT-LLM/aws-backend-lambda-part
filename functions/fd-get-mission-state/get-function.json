@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "fd-get-mission-state",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-get-mission-state",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/fd-get-mission-state-role-wj0ljz4y",
+        "Handler": "index.handler",
+        "CodeSize": 1161,
+        "Description": "",
+        "Timeout": 20,
+        "MemorySize": 128,
+        "LastModified": "2025-06-18T03:15:54.000+0000",
+        "CodeSha256": "WobDSAo92J1gEq5Vc6jOxXmK4VGGvs41+iWw+m1TsN0=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "6681b02b-f226-4c5c-b6d8-c71f25b94fe7",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/fd-get-mission-state"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/fd-get-mission-state-c9ba09ef-599c-44df-b817-5d32425e5f3e?versionId=biybkWJFz8AfOqU2B5VIwUJ3W.A5pP4Z&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAMiAdqRNIg5c%2FgjYz3Sdj6Zmm%2BrUpaFTK385T7R8QKw4AiEAqIrgL3caUe%2BFBcvaLhjx%2F0dCe1vhq2BsMsEyOjJRRZ8qiwIIXxADGgwyNTE5MzE4OTM2MTYiDAzyr9HchHGjs5Hz7yroAXqgYd9oCCJn9uLVZ3kc3RbDukydwZDXGb8mdbKY%2FCieforarQb%2B8%2FR7DFtEr0ZoTTbMGynsYuZYFiUoTUyNjOoDdiGd19KVn0MM0UqKPcYZ0kv7tqzQOOyama9NGgrl1PEPm%2F2gl%2BxhjJG%2BwlGVrX8iA%2B8hVBID4LsPhb5N%2FgoPRHKs9HvqZ46a2ct6j4VyVd%2BRWKXMW44eBGHgWIUQRAwYhEOz7GnVf8GoQaaEBWuaoZQztHo4nrxHZdGU%2F3HkEK02%2BdbxDbzQlMYB%2FcJNTj52T6nS6BRvGsjDgXO05%2FsdWPN5spIQmikwgumiyAY6jAFe%2BFMCeaBARBrGJX3VLoOGBNefErNtXDsjoDUFM4yFnlxjcA78Sry019dOHa5x2%2BRcgQ43R0afbhaQXZa6%2BsDhSfB2oBORdt0Nd2k8UArWeRTZnU2cssHBncbettL9wMAd3ii%2BN62JRDfa8rJYm2%2FWpBfKcJEEvTN3TUCpQUPPL8Z2Guf2jQ5dtNjUFg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141957Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIATVKCPT5YOLY3FYHT%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=c966411af96b7600077fbeb2032116bfd8af962ed583c27ef0f79a014050ac16"
+    }
+}

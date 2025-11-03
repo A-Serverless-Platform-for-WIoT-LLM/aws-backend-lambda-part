@@ -1,0 +1,19 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/aws-sdk_client-s3ANDs3-request-presigner-78cdf63d-c251-450b-b001-7a2230bc221c?versionId=VcVD4cv4Lw85iJ._LKVMDuic7tAMnzmd&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAIL6aXV856chpWqNZet9i38EysrmYkbZUimiRHp4X9oJAiAy9qq06nRsAYLita8gdBHU1oLrBzq84VBoI4ulWixPJSrABQheEAMaDDI1MTkzMTg5MzYxNiIMSz%2BRkG7RJY3VbMRGKp0FoVnr85PRcrmQ%2Fk5JY6aoaIttsle%2FRfOoNGXYewZQKW6f6I7ngwbsOONNUC4BMhT7DnciUGZozQY4baWJ%2F%2BWXjlSzVQmbI9x7HKIihQD9S88zNYz93k%2FSVx8b7YDRz04v8nmmyiy0mAXtxB2q16XJv1uqlyrb03J8ZARG3%2Bf%2Fu80UyRycjvcDef1CrJQBqt7lg4hRO7NT9OkopzjP9JXY%2FS%2BL2OYLrlek4Z1PYEMyn%2BBq5DOdjmtOqJE%2Fol4XgyAWRGBKxTmCMZIKn1QlfiV0sZ7oBrxDBSa34%2FQ6%2FJE4KRCb%2BvbzF8iPJ3d5wPuZ%2FuO0SLHoCc%2Fi%2Bjv%2BdhhRdF%2F9wP4i1lFICugvNEbIdiYS2hLewY2QcVLepohasvy%2BzGYdyCCOhUnqK97I4vfRAQLDJYatU2uBzi5LOh2DzMR01BG8j2cGhj6sIpcaPzkjMPh3s0YWS37HnhIpsu3tJlXaGc9I3PyEclAMZSWR1HlQrUxU5L0zLUUcKzY59QlNpAYAaPqiL09oW3j%2BQYclIl1zdUnZkB62kh14lkJWYfW5%2FHmuw2KS6ysVBdtfAh7RW7Dp%2FV38mRKgWxmO8iN5M87PzLlE8dNcxy5gV5ywVfHgtmY5jyml626pUc02hKuKslrb6eZ5jt8iCfByKqXYudaaLeAOFJFlQeWwAgjfI3n%2BIn%2BsiBeztBOxC%2BxK46vcVARc%2BhgIDSx8tqaMmqCDSjYrxFzyCWtkXOamzZ3Lar%2BzsobUUOBMfOrJ7tGNwMZSzIL%2BZq5EAPhp1zUPm6RbG0fFEpTDFV2B3%2B%2FUhOsA%2BRvr6bG7kLOxTC%2BiwzlRV2%2F%2FBtMR2CPV7jHUEHlohiqbRCNqZQp6bk5GoJwTdUKia5S%2FEacodDtUmFBnbGXUi2h6MPTfosgGOrEBb7tuLCBzMSrIiMEmhsfKmRScrp52odH8nFAc1BcdaQOePJQnv2uPYjk2o5O5DvT%2FkYa5%2BpOeAajZ87hiBdmZft7WSoJOZWBaC%2F%2Be5TKoERcJhmiFpIDnbejmeHJlV0%2B714LwVIOAo9VOjOICpPYUy2047sgjniIRedtiTk%2FFzY05KgOom3k9OJipV%2BsWtXgZMplkT7BqeVHRV%2FG2L%2BG5V%2F8FEhnVNlGMmjjXjF9Q4rO8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T142230Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YEFVOCKYY%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=8cb4f6a6d66d2c702b9180fbec03dacfdbb8f2724189d0484982609a91eedd46",
+        "CodeSha256": "+6LHjLv+MF/A9JbNrOXfOa57xn/0yJFiR0VqBvo9Dvk=",
+        "CodeSize": 3620398
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:aws-sdk_client-s3ANDs3-request-presigner",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:aws-sdk_client-s3ANDs3-request-presigner:1",
+    "Description": "",
+    "CreatedDate": "2025-05-21T10:55:54.318+0000",
+    "Version": 1,
+    "CompatibleRuntimes": [
+        "nodejs22.x"
+    ],
+    "CompatibleArchitectures": [
+        "arm64",
+        "x86_64"
+    ]
+}

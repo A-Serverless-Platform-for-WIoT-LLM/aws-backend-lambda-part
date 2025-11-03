@@ -1,0 +1,56 @@
+{
+    "FunctionName": "auto-meal-alarm",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-meal-alarm",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/service-role/auto-meal-alarm-role-807szbug",
+    "Handler": "index.handler",
+    "CodeSize": 3601,
+    "Description": "",
+    "Timeout": 15,
+    "MemorySize": 128,
+    "LastModified": "2025-06-08T07:15:17.000+0000",
+    "CodeSha256": "Cp/KlmFotz/Kzd1IvCo/k+j78sBW+ZTLVpMewvB0xZY=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "2cc979e9-5a08-44e0-aa01-d98d8d855ef8",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+            "CodeSize": 713473
+        },
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/auto-meal-alarm"
+    }
+}

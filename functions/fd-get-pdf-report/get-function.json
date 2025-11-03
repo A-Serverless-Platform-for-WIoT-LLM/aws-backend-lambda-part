@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "fd-get-pdf-report",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-get-pdf-report",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/fd-get-pdf-report-role-1fsrisek",
+        "Handler": "index.handler",
+        "CodeSize": 998,
+        "Description": "",
+        "Timeout": 20,
+        "MemorySize": 128,
+        "LastModified": "2025-06-12T03:28:32.000+0000",
+        "CodeSha256": "oiNpYQ7RQhWRvH9s8Y/JBqV9BO6AZB0Slt/kCEnTyvM=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "e54a7d60-d159-44e6-b28f-a61556fbee4e",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:aws-sdk_client-s3ANDs3-request-presigner:1",
+                "CodeSize": 3620398
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/fd-get-pdf-report"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/fd-get-pdf-report-8e91b8e9-efec-4d35-bf9e-17398a539871?versionId=i6_WZfzFF7kcbY2sc7Q66i2IW1HdYIeX&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgNd8uz%2F2L36U9pDQ6lYeIPLe2DXnN3K20KbwKosPzj64CICURTLzR7tcwC%2Fkb48uE%2FjZgCztYHNSSXbqyUe2LJQSUKosCCF8QAxoMMjUxOTMxODkzNjE2IgyfvX5WTUVqyj8mjnUq6AEc88lraRkFNjRh6FtIpNvVBnY%2BWkXS9cC%2BKivUdC3Fni68Vx67fX%2BcY%2BmjkhRGY4hwJfuo9rJhLnItfQwpq8X1OH%2BKlgNkoCUWyyKlXthPkJNWKF%2B%2BMdzs4YMJ3PUltJUe9wnwdJeVfyqnKgoXySQeW8OegXKGs6dAG3ZHEUk3UQKGFbdOhpDISD2QlGTDRMoDPbWuS3uqvwr87bmI7iCPlaDj4sOrcu4Hp84HYSujjk0069kl1XOLaTziVx3wm1SYsdGzwZd3iQfs78eshpnMcUbUTA4CsgFl5ju27nDUPPI1F4tQ1YECMILposgGOo4BfzN37t0f4W9Pkin5aj%2FBJhZPdPJQ57iEYdGQjkKPShvTEEI6Z4VPa3lmFJ8emijZG3TFcdy5OOFy5I8JnTuElY2996OOrMO8k9yuDAoV9JpfEF7%2BoaYYA%2BTMTwcCCSgSNEbLHqmuS1WS2oRqSeziwnrZX6BoWfK21zBRpxATg%2BGsEZZrUcKfDBnRs1EbmA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T142104Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YIW3PSGVS%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=318d478ad5e5cb6b4d9fad6dab95498af54112b0413a5d5f052f3a0052757d04"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "auto-report-alarm",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-report-alarm:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/auto-report-alarm-role-c5u28ys8",
+            "Handler": "index.handler",
+            "CodeSize": 3347,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 128,
+            "LastModified": "2025-06-03T06:04:10.000+0000",
+            "CodeSha256": "W6JbVlUdIiTgFrSSKKQsb+Kw0gVlilbMrcKmvUkllOU=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "9a4cae06-775f-4950-83e7-59d7f306b238",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                    "CodeSize": 713473
+                },
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/auto-report-alarm"
+            }
+        }
+    ]
+}

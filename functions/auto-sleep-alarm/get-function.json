@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "auto-sleep-alarm",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-sleep-alarm",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/auto-sleep-alarm-role-odo3d6cj",
+        "Handler": "index.handler",
+        "CodeSize": 3498,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-29T17:10:07.000+0000",
+        "CodeSha256": "NE3OkfJ3TqRjGkm6Vhozeh/TNZHDZ6NvWNxCHXbyBhw=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "96f95601-caff-40bc-8809-66ea7fdc87cd",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                "CodeSize": 713473
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/auto-sleep-alarm"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/auto-sleep-alarm-a873886d-92cd-4673-8cf2-4b21c427a1a8?versionId=mLETy_QJAniCMY5k0QwM.E7dPXeBQRfx&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAIQS5qJL2EqB%2BYuz2piNF6RktmkvMKiFFq9JACUibbkQAiAHXwgze7d5yPSrh%2FPTtH0%2FMcJY%2F1t4f%2F4jluliMPDBsCqLAghcEAMaDDI1MTkzMTg5MzYxNiIMTg7cmLd%2BXsbYnNlGKugB%2FQDnBAydxiSpbxE4udXXGfPrQ5gCgBwlrsR8pJ%2F8P1e4K02NshlwCF%2FB8QLjso5r4xc4XcdFllxAz5Ef3WpxIyBliVsi3rvs9YKVBSH4g2ZZ1NVdzhGdQXvpoFq3JPCZmNdhRy280F9mceh1QiBuLlVPTuB2Zx06XtMOHgPIJGHzCQrom4UbJsdO%2F6pvqCSZNX5a9PNfAbrj5GfqtskdeVtcEDzADxnVGyKI%2BbqwomjLQT93AMvggqL2io270KNOGfKdKCQhjXnS%2B7dCfVi0yl7FDNIx%2BnDva1RaITeQFthhs2vHbj3G%2FzDkmqLIBjqNATSCANIKlS3Upv8MueK3KAvnOTSEdCpGI6MT%2BcYmu9yYhQ3xs%2FMtPODcuca2j%2BiFwu33Eg8pnODG6uNcKwZ6PhL5Q59lp6ipPgA370ytNGBvnU1Hfq5ZNqpvn6aT%2BO3d3BkyAHjAWs4XEmI0XWTvjZoUJwzMN2Cd8fu7%2FzvBMYXLDalmQ37wY7GFyflkNA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141711Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YA7TCG3VO%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=0920b82231385f584f14ca536aa8a6d0fc5639324c7c6c30fd07253f588cb8f5"
+    }
+}

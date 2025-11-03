@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "modify-profile",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:modify-profile",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/modify-profile-role-z82wm61c",
+        "Handler": "index.handler",
+        "CodeSize": 749,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-14T07:13:35.000+0000",
+        "CodeSha256": "4aHDXtrf1Gwgbyos4Dcm6JPYeTheycE3YoOKV2FVEgU=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "4283e4cf-b969-4254-8569-4a56d253ab8c",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/modify-profile"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/modify-profile-0d73f233-4231-4380-8167-b6c6d3060c38?versionId=ru7y05q95W8RRaCgQjtGYbkTWKUAVsaL&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgYNeNZoPrMP1q6s5cZnXtMu8X8vSADfgnMj7f9YqiXlYCIEGLYw%2FrfPL%2F0plwM%2B%2FicKNOa5DKK1I1Qz2hINwBPIw1KosCCFwQAxoMMjUxOTMxODkzNjE2IgxIsr55rEQuz2DmKv8q6AE5PbEw3Gui3lo1GUbPJJ4Md1%2BVshc58y19O%2ByODVL3pNM5UHJaYmypai5XXzc1HC%2FFF2x8ofBq%2F069bCe0B16WL9NZ1uU04%2FJPucuO5rXJjN1rqgVcQ1h8IjMYaoIFoF363RVkJ9V%2Fb2guu6%2BpTvPV%2Fvmrg66Y%2FOvGhiSD%2F%2Fam3TWn6is5%2BFsv1aRTPc0Pxb5iIru7e46fL7kWVBw%2Bdno2J4tjddFLDA3lWOuc56iYjW3SRt9z9nA%2FX9oeVBnbI%2BnU2FuN629Irb4tIGmJdueudWXHQ478E1Rfmj3j5Xdnhmh%2BUiNucAJPMKmZosgGOo4BDLZChA%2BCsi0fH4LS%2BE3uhJ0XTJc4493VWazjzMEc12k0ijin48Y0phEY1SL%2FyDpKbuc3o7c5MceB%2BWn07HQSaabT%2Bn4GTVxw4dvzFqSAmixvfil8Ay7jOIHfGPKhBw0N58yyUmxPhz9CO7pWtneI9gO4i0%2BJiS3td%2B89DuJnAGGvzHOGkUmENbgPIMaThA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141123Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YGG5QKKUU%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=e7de10d966a1f4c3eb9ef8cdb27d7a06f4987360d78c93de7669183e1c52bbd9"
+    }
+}

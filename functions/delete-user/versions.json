@@ -1,0 +1,51 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "delete-user",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:delete-user:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/delete-user-role-5vebu6z3",
+            "Handler": "index.handler",
+            "CodeSize": 1309,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 128,
+            "LastModified": "2025-05-19T07:04:39.000+0000",
+            "CodeSha256": "eJ0piKTl0uXEDSZuP7IJhoLiECD3deplYJr9vFwUS+s=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "8b330e3b-8b7e-4bcf-aa5d-fe378f0b4896",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/delete-user"
+            }
+        }
+    ]
+}

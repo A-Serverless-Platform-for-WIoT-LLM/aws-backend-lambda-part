@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"lambda-3ec3bfeb-a275-4717-8d46-f3d2641dccf1\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-2:767397900488:function:get-mission-state\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-2:767397900488:1hncugwld2/*/*/get-mission-state\"}}}]}",
+    "RevisionId": "7b56e113-0ec6-4303-b76a-8274a204b434"
+}

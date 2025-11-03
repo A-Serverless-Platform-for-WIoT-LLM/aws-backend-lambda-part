@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "update-permission-state",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:update-permission-state",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/update-permission-state-role-xv5jc5hk",
+        "Handler": "index.handler",
+        "CodeSize": 669,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-20T03:58:30.000+0000",
+        "CodeSha256": "nc5C6Qf3aAQ1mBtTx8RdkgVuX0ixMCOg5WXpyLmWXRU=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "d8b08d95-f9ca-4204-8b70-ce66fb666f71",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/update-permission-state"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/update-permission-state-ad4b2b5c-ac78-477b-9cb5-fdbf71745005?versionId=yBEYgTSuFGpwaEn6HKRBpF1y3SnnByH_&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAPo%2F%2FOiiEQvgkf%2F9Y36eSSOqr6zvGZvxvcgrETmUWyomAiEA%2Fo%2BZWm603OqvKxsMyp3t%2FDU%2BmSHQJm99yP3q4DylOAQqiwIIXxADGgwyNTE5MzE4OTM2MTYiDLmDIjWvFKvmYyFKAyroAbNFNB%2BnDmpdbhm963dyO9ds1RkMym%2FXSgNiXon3Qvx7z%2FQrwnZzuK4k1PRzZxWNfjdOAPvWy6vHj6OdE8Xr2%2FBmPWEMCcGH0OrFmC%2FUkjH%2FOTjMjk9jGzg6pdC7fCN6Tp3FjmbMfDUezY7mpzz1gFmpzFKVE8avqdYrXZhATpVCCSgjUeBOBpfKSA%2Br0fExTFhnqjrEqiPg1WNfRGFT%2F%2FHe8%2FJsYjWBIiOOOgrNUHx1KtSqVityCIjAo5oraB95sYDsTC7c5BvHYRBDuxoF5oEMALWfSIFlV8jV6oiZhrr%2BWQZPi2D9Ncwwx%2BeiyAY6jAFWuW8brYkM8ITPfseiCYVVIpLQpToCzB3y0zfF5QaHcjp%2BclouqhcVAbxnO2AjVXS0JcKlizN7KX%2FEAzuP9phE4Ho%2FiBqhFp3YzfJBG90nMKzBPC9tPVWo2ty%2B6dx0ut0tyCGxATUI%2Bt1U8JH9aXZuEuYISySmO6EjIhVfEjVFupE7TNsmz02wSdemig%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141202Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YIYV4O7KC%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=ff17d628ddeb64c8bc20715594937534c1b443c6edd52a956bc57b868cc12ae4"
+    }
+}

@@ -1,0 +1,1 @@
+arn:aws:lambda:ap-northeast-2:767397900488:layer:database-layer:1

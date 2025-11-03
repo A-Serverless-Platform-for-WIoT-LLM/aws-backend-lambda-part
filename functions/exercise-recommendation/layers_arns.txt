@@ -1,0 +1,2 @@
+arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2
+arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3

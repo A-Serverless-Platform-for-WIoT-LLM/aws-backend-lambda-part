@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "auto-exercise-alarm",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:auto-exercise-alarm",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/auto-exercise-alarm-role-bo11pby4",
+        "Handler": "index.handler",
+        "CodeSize": 3487,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 128,
+        "LastModified": "2025-05-29T17:06:32.000+0000",
+        "CodeSha256": "C14gfh1chxXSDMS5W5QL4MviNHeiAvnEVqm6BTHPRxw=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "13e597f0-c92b-4138-ba9b-4b281e20b7a6",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:google-auth-library-layer:1",
+                "CodeSize": 713473
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/auto-exercise-alarm"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/auto-exercise-alarm-7fd21b92-ac59-4d6e-92b6-82e5191e6830?versionId=jZDMbaguKCykqcsD75IMbRqb5oZKcj6h&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAN%2F8KL96ogwjUPcoUitbrRRJTm7N3%2BI%2FqCX78Lf7iKvhAiEAs1BWBbPDzPif7RX3zh3NGO4FXccFZJLbbnsjpAHmpmEqiwIIXBADGgwyNTE5MzE4OTM2MTYiDLkMbIHarljxUB8ZeyroAb55zuAKUlbhmvtXFNzc4CsLfJxKQ%2BhEEofM4ktBCN%2BfqzjncGXnAc2hF1ziBT5PfQ%2FtdLgqcS1OKzZhMI8WSp%2BTAm7GDOYwvMvKRcOPqZtWjqYEk3lUgBaq1cX%2FL608lkuctQNihI4ViGUDOL7NRg0mphWHaZSDdKZi2IA855AzSs9JOZngXyS1Sswu%2Bl%2FI9YYVqu22pp1iC78PkL7oZ%2FTBFSFYDVYaDRAEQiy8rpZUFZHdRDVC3e9Onr2Zf5%2FazTckoVnnqEKAER5NcJl%2F6ewHDdk59g2hH2maONWfjtnY3FdQ5SrY6h4w5JqiyAY6jAFhAMQJfd5VmBddAQ3zJryzBCSEsURsXTEBpQlMVK6SGbHqkDNolJ7IK3NW5NGWWHh3N2M3zlEhSB%2BiRP0OlDq7yI%2BhUoLWle8eG3PPwqAdvFwrrRi5Gik8hS%2FXnKqSKf1%2FjWIak%2BWBt7dO7KvXISywLLe8KP9tox9vZqtqDTIc3pegoKD87bwncBoUjA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141752Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YNOW5NG7Y%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=2ea1a6dd4737fc1845fc858de1ba9ff58212e93f5221c82c6126f898172f1a57"
+    }
+}

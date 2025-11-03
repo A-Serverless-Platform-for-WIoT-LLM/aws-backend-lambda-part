@@ -1,0 +1,51 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "view-profile",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:view-profile:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/view-profile-role-7tbxn8cs",
+            "Handler": "index.handler",
+            "CodeSize": 850,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 128,
+            "LastModified": "2025-05-14T06:41:33.000+0000",
+            "CodeSha256": "e0dBy+RkQ5RRRZRXSX53Klesa8dbRqk+BXoQfEXHzqU=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "3fe78388-52c1-4b53-b564-686a210a7e19",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/view-profile"
+            }
+        }
+    ]
+}

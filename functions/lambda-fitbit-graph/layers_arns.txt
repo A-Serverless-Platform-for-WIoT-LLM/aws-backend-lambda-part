@@ -1,0 +1,2 @@
+arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-library-graph:11
+arn:aws:lambda:ap-northeast-2:767397900488:layer:layer-openai-fpdf2:1

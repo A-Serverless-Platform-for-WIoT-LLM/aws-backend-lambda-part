@@ -1,0 +1,21 @@
+{
+    "Content": {
+        "Location": "https://awslambda-ap-ne-2-layers.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/database-layer-c62a17d1-fec1-4967-bc8c-fd53e67d67b6?versionId=Ckky.fbxQmsbyqoPsWXPyMBGa02lLUaq&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIgN1lx1OkHPECTfl7oKjVm5fHePYpArBPbloIeQe2exh8CIQDILmbPpg%2FrumP4FbPRGxv%2FJXmGTi50sRzJJILJXHWswCrBBQheEAMaDDI1MTkzMTg5MzYxNiIMQlky89496Uyk0MCkKp4FeT9Eugltj9DGp5DYzWirdxyh6iDrGB4LAzf0QydVVpnN6vfUELxTzM5af5rJA7fr5yVLHiYmufYEt0F0otqzp56SBUjlESwQU40Sm5%2F67ohqQW3SOjxFAJQH%2BDVlKsaXdalJl3E7ErI9nzAUT58nY5m%2BHBwIAAZ2aTzM0XBjYsJW3i%2FJdjP7a71gTzgoj9J%2Bvz1AEs6NHM794NyXc9yErfGRe44alLx0cY%2F2N7s9Gp9L598kLEZTP5ZjcWcwotwLtjUt61099L7VjR%2F96Ky9lrU3cBcKiLU3bST9Tz8knRvREYy2ENOuAEozUVbDfp1jaNxGLsH1b9eJ5XfjLa%2FcbPxVLR49YVuCWtv2cU3ZJJXqvyDnRjdn7iuZ2JYIJvOEdvIYlKQiw%2BKDp50mJCWObRFQn87bY1vE04e%2FsFDXDd1sKv75hd7YSAXgDzrvf0tj24T7ffXpibqExEAHX%2BCDMeVtXV7ttdKvyGAS8lLFrgFiNLCfJiiqwjq3ER2uhmk5LCa3Dy0wz9uCTtIuMCLFVZVNbi0W5BFcEI8NqXPmg4%2B5xDkVHLuEJ6khHVnPF%2FqUGlBnSFA3QvvAs4M%2Bpyk7Ih9wnQQVjLTIwV4%2BaGvMlB%2BZtLhxIPpQYZbX1u8U5ek3URYTTeWu7r3C84Tjs2yTXEAa8%2FsdG%2FBIAu0DeYKyt%2BAvnj7CZpPa30DyutH9lHxRagCK7pSOX2ek9sGIyF1UE6%2BnVMdLP4oCiV0rAuH%2FtEzaX0hkQMxtZLBI8WG97NgRbSzibsmPmV4VDTFMFoq2RM%2F2UFipzvta0a5DYGNyAdXIFlJOx4cjuEwsaMtTAzSOX42bsWbqt7kscj5UpfIYdqXUSsTMkc%2Buor5QVfxas1Km9tXyTd9Xnqe1%2B7lkWTD60KLIBjqxAb7UVDoQuwWXnWmJSZGrvCq30IVCdAjWc3ewcM5ioPRxhgNo5KCiPLavC1PJd8lFCT%2FTBHxJNzzdVttq1tK0zFRIf%2BHxSyVIj%2FbXKhHDUiFDGPROQmaFo6tbjjypDrJCpGucnBGVqEdo0ZeqsBZhtXFJ3DduXVd%2F4NIRKYA%2FJdvqbNa8lqi80HCcsxd49TKVsYUlWsFqJT%2BCR50uYnfMLUlIbHFwmP8zjU92j9%2F4zKFFdw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T142149Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YJ46XRYBF%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=0e8e9ac0194a9d9a8ea80d5659d92b3cb9a184afcb7ee90592bfac699f86e592",
+        "CodeSha256": "wduG43gdrejCTeWXN/rrtpybKuzVIFalsdt4NajNHhk=",
+        "CodeSize": 5605050
+    },
+    "LayerArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:database-layer",
+    "LayerVersionArn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:database-layer:1",
+    "Description": "sequelize, mysql2, luxon",
+    "CreatedDate": "2025-05-14T18:41:15.790+0000",
+    "Version": 1,
+    "CompatibleRuntimes": [
+        "nodejs18.x",
+        "nodejs20.x",
+        "nodejs22.x"
+    ],
+    "CompatibleArchitectures": [
+        "x86_64",
+        "arm64"
+    ]
+}

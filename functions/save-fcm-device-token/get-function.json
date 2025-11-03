@@ -1,0 +1,66 @@
+{
+    "Configuration": {
+        "FunctionName": "save-fcm-device-token",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:save-fcm-device-token",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/dayinbloom-api-AttachLogsToLambdaRole-7idUE94wWsAH",
+        "Handler": "index.handler",
+        "CodeSize": 872,
+        "Description": "FCM 디바이스 토큰 저장 함수",
+        "Timeout": 30,
+        "MemorySize": 128,
+        "LastModified": "2025-05-22T03:08:00.000+0000",
+        "CodeSha256": "3xPY0JehFFO1e0BCGnaco9qU+zX6KxNgn3FxPrJh/Dk=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "FITBIT_CLIENT_SECRET": "REDACTED",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "FITBIT_CLIENT_ID": "23QC3K",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "38243934-8362-44aa-9144-483f7f488101",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/save-fcm-device-token"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/save-fcm-device-token-569d3a8f-c904-4b41-9db7-7e957c740799?versionId=MmH_aKt7wWNwUxQ1TmtY85n3N1YAYTV1&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgMX5p5ZAh0Py3vSjJo3TSMdgwsgBECmOI2kd9YmaBmGcCIG%2F%2BzM0wIFLslYQnwkSxX46gR1was%2B6Q6xjqJpidboNRKosCCFsQAxoMMjUxOTMxODkzNjE2Igzwyrgtog2dIUL45kgq6AFw9gwnWH%2Bjolz%2FyOpVVyTY3kxXDkcmW6DjPUwiwD3cT8%2Ff1XbeYw0u5c9PHItlsTl744uTHElpOwOrEGbAXX7VQQcXeEralqf%2BH2%2BeuYZaCouV0vxd2eyHCdfLe8v%2FNtQF4SRTA1AdmN%2BJOFK6MTJFiw3FgWLJELS5XV%2BU%2FGEDI212IAJxQDlNwFc9s1oUrO7wRaJ2MaA6mgywubleofcWmbYuuyHow24Dh1Bo0zLk%2F8xA9q9aRFwYeroSY%2FUK3WkRI1k0Mkzu8ZAmiDM0MQgVrBGsIKSp1YToGA1Ft0Z6smsq8L44FYjhMMiAosgGOo4BuPrudufLh0TmCOXhhS5u6bVieVcR6d9bQyCsPrLD1L9bUz1rrLP61oTlwUZS3CLRJgco%2FlXq%2BfjZcIRedqwK43lbaI5FjgFjfjr9rtIDzcC4OrByDmtGpxUiUD%2BMfdXRGDI36DvGLLcC%2FBqUgjsM%2Bn2ZLBBz8x%2B9WhTIkg34Mk8UAcYn%2FWlzcWmzJ0Bkgw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YD6NV3KMJ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=dc07da23fa546ca6da5a3c16c2b952262b03192ff673e760f7044a830cf911a0"
+    },
+    "Tags": {
+        "aws:cloudformation:stack-name": "dayinbloom-api",
+        "lambda:createdBy": "SAM",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:767397900488:stack/dayinbloom-api/be4bc3a0-303d-11f0-b02f-0219ca6f17df",
+        "aws:cloudformation:logical-id": "SaveFCMDeviceTokenLambda"
+    }
+}

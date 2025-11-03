@@ -1,0 +1,51 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "remove-fcm-device-token",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:remove-fcm-device-token:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/remove-fcm-device-token-role-ews3kt3r",
+            "Handler": "index.handler",
+            "CodeSize": 879,
+            "Description": "",
+            "Timeout": 20,
+            "MemorySize": 128,
+            "LastModified": "2025-06-07T15:29:11.000+0000",
+            "CodeSha256": "hpixV6VQ6LXoh0DoTPxVa46djvxCFHB1PYnsruUa5cA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "e9fcc1b4-f917-4d4c-9626-aa440e5ca690",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/remove-fcm-device-token"
+            }
+        }
+    ]
+}

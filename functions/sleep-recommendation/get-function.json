@@ -1,0 +1,63 @@
+{
+    "Configuration": {
+        "FunctionName": "sleep-recommendation",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:sleep-recommendation",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/sleep-recommendation-role-nmg8v6w5",
+        "Handler": "index.handler",
+        "CodeSize": 2594,
+        "Description": "",
+        "Timeout": 30,
+        "MemorySize": 128,
+        "LastModified": "2025-06-18T06:16:26.000+0000",
+        "CodeSha256": "a5gcxUP0jJbnJiE2o59z0icxj+L3NxGXlesPbOZt/qo=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "OPENAI_API_KEY": "REDACTED",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "3969932c-5728-451b-9f3a-b91c9aad750a",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            },
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:openai-nodejs:2",
+                "CodeSize": 2344658
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/sleep-recommendation"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/sleep-recommendation-53890a88-e5b2-4642-9ee8-ebb18d7ac627?versionId=OQ5fUdKw22YGFv5t6CrkzjPgLjFD6Df.&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIgDsdgUFUTjdtp9DHCAYlTjj4YUVi4Vj%2BSdZM7tLz1kNcCIQC%2BO%2BY9F8qbCQvNBWwRXgm5wWc%2BA6TAH9SPHpef2HsPiiqLAghfEAMaDDI1MTkzMTg5MzYxNiIMixHFW1sh1jL6a17dKugBqlg5E0RkKjeC%2F2cjnznNuu%2Ba7zc399Yd9MUovteu5tyodTj7q4DaEFSXjf65qQEZuJAPnuKlgxO%2BNj1yjb4hoE65NBfe%2F2xop2fwjzUsHyUMm9%2BeldbXX3v08QZnfAT67o1qB1qZYcIOLyRxbIEJuKYM1lKoFE1nska9anQgaGI6ekXOxKKzCAXEyrRG%2FnFBYaxTwlQkZ3Zbf4UOaW46XOoT01R6ob%2FRJs7uc5ZAwFedIDVNEOZEipv7%2B%2FNxMV8DuAY%2FlKHSOSFtlEQMJJ4sulPcK%2B5RIF%2Bwv7Y7AgXDFuuSer80KIe95DCC6aLIBjqNAcZdLSdhhh67kREozwE6bWeChY26xi6fcIMR5kdgloLT8BvVFv6vMSHmW5RJKPUvPRcP8RBXxwqaUj24TSfpzFuKekcKby1sBAgBOnRNuqySeOg50lmL1UcRvJiaKg0Hyhkhr5RPXwHj7zixI9tWdbCKHoHIk%2BhIVTjjOVvk6ksg3tpE40X0PbAlW7w6ZQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T141002Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YCABQM2CJ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=6237e3a6169857e1517de98fd05532d4c44d950397a218f5f1a8d87c2c182668"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Versions": [
+        {
+            "FunctionName": "fd-get-graph-report",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-get-graph-report:$LATEST",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::767397900488:role/service-role/fd-get-graph-report-role-pcxt9jjg",
+            "Handler": "index.handler",
+            "CodeSize": 1094,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2025-05-26T05:48:58.000+0000",
+            "CodeSha256": "a35VhY7iBpECGCMmk9qJsbKSPR1c5iHftFsLTtT+09o=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "DB_USER": "admin",
+                    "DB_NAME": "ELDERLY_HEALTHCARE",
+                    "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                    "DB_PASSWORD": "25kuku487"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "42eadde2-ddd3-43e9-adfc-35ac9bc3f79d",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                    "CodeSize": 618258
+                },
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:aws-sdk_client-s3ANDs3-request-presigner:1",
+                    "CodeSize": 3620398
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/fd-get-graph-report"
+            }
+        }
+    ]
+}

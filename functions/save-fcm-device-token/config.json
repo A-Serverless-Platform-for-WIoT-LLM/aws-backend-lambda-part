@@ -1,0 +1,54 @@
+{
+    "FunctionName": "save-fcm-device-token",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:save-fcm-device-token",
+    "Runtime": "nodejs22.x",
+    "Role": "arn:aws:iam::767397900488:role/dayinbloom-api-AttachLogsToLambdaRole-7idUE94wWsAH",
+    "Handler": "index.handler",
+    "CodeSize": 872,
+    "Description": "FCM 디바이스 토큰 저장 함수",
+    "Timeout": 30,
+    "MemorySize": 128,
+    "LastModified": "2025-05-22T03:08:00.000+0000",
+    "CodeSha256": "3xPY0JehFFO1e0BCGnaco9qU+zX6KxNgn3FxPrJh/Dk=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "DB_USER": "admin",
+            "FITBIT_CLIENT_SECRET": "REDACTED",
+            "DB_NAME": "ELDERLY_HEALTHCARE",
+            "FITBIT_CLIENT_ID": "23QC3K",
+            "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+            "DB_PASSWORD": "25kuku487"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "38243934-8362-44aa-9144-483f7f488101",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+            "CodeSize": 618258
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/save-fcm-device-token"
+    }
+}

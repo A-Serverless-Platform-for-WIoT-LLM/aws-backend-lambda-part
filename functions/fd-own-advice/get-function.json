@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "fd-own-advice",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-2:767397900488:function:fd-own-advice",
+        "Runtime": "nodejs22.x",
+        "Role": "arn:aws:iam::767397900488:role/service-role/fd-own-advice-role-c8dw4v6v",
+        "Handler": "index.handler",
+        "CodeSize": 1016,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2025-06-18T07:42:11.000+0000",
+        "CodeSha256": "qU9qDhl7v3d9XjQVFBzNqAtbeatTT55l1VtgGBDcQSg=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "DB_USER": "admin",
+                "DB_NAME": "ELDERLY_HEALTHCARE",
+                "DB_HOST": "elderly-healthcare-db.c1ke2yacmgl6.ap-northeast-2.rds.amazonaws.com",
+                "DB_PASSWORD": "25kuku487"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "755b738b-0515-4cc1-afcb-0ed66d208275",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:ap-northeast-2:767397900488:layer:mysql:3",
+                "CodeSize": 618258
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-2::runtime:78be964f5868c0d4aba0b80888fefce9cdc59266c5fe738cfb0ddd061e6d5450"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/fd-own-advice"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767397900488/fd-own-advice-424e81f0-f48d-4070-8c98-d526eec9b8cc?versionId=LuvoQtFO7gZUZVV__9h7krnDXTNcATGd&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgMX5p5ZAh0Py3vSjJo3TSMdgwsgBECmOI2kd9YmaBmGcCIG%2F%2BzM0wIFLslYQnwkSxX46gR1was%2B6Q6xjqJpidboNRKosCCFsQAxoMMjUxOTMxODkzNjE2Igzwyrgtog2dIUL45kgq6AFw9gwnWH%2Bjolz%2FyOpVVyTY3kxXDkcmW6DjPUwiwD3cT8%2Ff1XbeYw0u5c9PHItlsTl744uTHElpOwOrEGbAXX7VQQcXeEralqf%2BH2%2BeuYZaCouV0vxd2eyHCdfLe8v%2FNtQF4SRTA1AdmN%2BJOFK6MTJFiw3FgWLJELS5XV%2BU%2FGEDI212IAJxQDlNwFc9s1oUrO7wRaJ2MaA6mgywubleofcWmbYuuyHow24Dh1Bo0zLk%2F8xA9q9aRFwYeroSY%2FUK3WkRI1k0Mkzu8ZAmiDM0MQgVrBGsIKSp1YToGA1Ft0Z6smsq8L44FYjhMMiAosgGOo4BuPrudufLh0TmCOXhhS5u6bVieVcR6d9bQyCsPrLD1L9bUz1rrLP61oTlwUZS3CLRJgco%2FlXq%2BfjZcIRedqwK43lbaI5FjgFjfjr9rtIDzcC4OrByDmtGpxUiUD%2BMfdXRGDI36DvGLLcC%2FBqUgjsM%2Bn2ZLBBz8x%2B9WhTIkg34Mk8UAcYn%2FWlzcWmzJ0Bkgw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T142248Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YD6NV3KMJ%2F20251103%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=61315019f0a414b7c00681ce3c303eb202c8dcb263ef5e9086b082965fe241a7"
+    }
+}
